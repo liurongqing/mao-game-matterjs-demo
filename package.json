@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-phaser-demo",
+  "version": "1.0.0",
+  "description": "esbuild phaser demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/dev.js",
+    "build": "node scripts/prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/esbuild-phaser-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/esbuild-phaser-demo/issues"
+  },
+  "homepage": "https://github.com/liurongqing/esbuild-phaser-demo#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.15"
+  },
+  "dependencies": {
+    "bitecs": "^0.3.22",
+    "phaser": "^3.55.2"
+  }
+}
